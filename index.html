@@ -26,7 +26,7 @@
 <div class="container pt-4">
 <div class="float-left">(<b>{{ sortedScripts.length }}</b> scripts catalogued)</div>
 <div class="text-right">
-    <a class="nav-link" href="https://github.com/tanami/overscript"><span class="d-none d-sm-inline">View on GitHub </span><svg version=1.1 width=16 height=16 viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden=true><path fill-rule=evenodd d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+    <a class="nav-link" href="https://github.com/serofir/overscript"><span class="d-none d-sm-inline">View on GitHub </span><svg version=1.1 width=16 height=16 viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden=true><path fill-rule=evenodd d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
 </div>
 <div class="text-center">
 <h1>Overscript</h1>
@@ -38,7 +38,17 @@ if you have any scripts you know about that aren't listed here, please email wei
 <br /><br />I am hosting a tarball archive at <a href="http://tanami.org/pub/software/TrueScript/">/pub/software/TrueScript/</a> and a git mirror <a href="http://git.tanami.org">here</a> but you should always try and get the latest version.
 <br /><br />
 You are also welcome to email me if you want assistance with setting up a script.
+<br /><br />
+Every entry below was re-checked on <b>{{ lastVerified }}</b>: links followed to their new homes, versions and commit activity verified, and dead projects marked as such with a preserved copy linked where one exists.
 </p>
+<p class="text-muted"><small>
+    <span class="text-success">maintained</span> = commits within the last two years &middot;
+    <span class="text-success">stable</span> = finished, no recent development &middot;
+    <span class="text-warning">unmaintained</span> = nothing has happened for years &middot;
+    <span class="text-danger">discontinued</span> = development stopped or repository archived &middot;
+    <span class="text-muted">missing</span> = upstream is gone, archive link provided where possible &middot;
+    <span class="text-dark">unknown</span> = could not be verified
+</small></p>
 </div>
 <!-- it is a pretty well-known fact that modern javascript pretends to solve all templating problems but in the end the most useful code is always the hairiest.. -->
     <div id="content">
@@ -72,10 +82,13 @@ You are also welcome to email me if you want assistance with setting up a script
                         <template v-else>
                             <a class="btn btn-sm btn-outline-secondary" target="_none" :href="script.download_url">no source</a>
                         </template>
+                        <template v-if="script.archive_url">
+                            <a class="btn btn-sm btn-outline-warning" target="_none" :href="script.archive_url">Archive</a>
+                        </template>
                     </div>
                 </td>
                 <td>
-                    <a class="text-black" :href="'img/'+getImageURL(script.name)"><img :src="'thumb/'+getImageURL(script.name)" alt="no image"></img></a>
+                    <a class="text-black" :href="'img/'+getImageURL(script.name)"><img :src="'thumb/'+getImageURL(script.name)" alt="no image" @error="onImageError"></img></a>
                 </td>
                 <td>
                     <table class="table table-sm table-borderless">
@@ -127,6 +140,8 @@ You are also welcome to email me if you want assistance with setting up a script
             status: {
                 maintained: 'text-success',
                 stable: 'text-success',
+                unmaintained: 'text-warning',
+                inactive: 'text-warning',
                 discontinued: 'text-danger',
                 missing: 'muted',
                 unknown: 'text-dark',
@@ -136,6 +151,15 @@ You are also welcome to email me if you want assistance with setting up a script
             // hmm.. guess we don't need to do anything here
         },
         computed: {
+            lastVerified: function() {
+                var newest = ''
+                this.scripts.forEach(function(script) {
+                    if (script.last_checked && script.last_checked > newest) {
+                        newest = script.last_checked
+                    }
+                })
+                return newest || 'unknown'
+            },
             sortedScripts: function() {
                 function maybe(a) {
                     return a ? a : ''
@@ -156,6 +180,15 @@ You are also welcome to email me if you want assistance with setting up a script
         methods: {
             getImageURL: function(name) {
                 return name.toLowerCase().replace(/ /g, '_') + '.png';
+            },
+            // entries without a screenshot fall back to the generic placeholder
+            onImageError: function(event) {
+                var img = event.target;
+                if (img.getAttribute('data-fallback')) {
+                    return
+                }
+                img.setAttribute('data-fallback', '1');
+                img.src = img.getAttribute('src').indexOf('thumb/') === 0 ? 'thumb/none.png' : 'img/none.png';
             },
         },
     })

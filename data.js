@@ -5,10 +5,10 @@ script_data = [
       "download_url" : "https://github.com/vichan-devel/vichan/releases",
       "language" : "PHP",
       "name" : "vichan",
-      "notes" : "Essentially an improved fork of Tinyboard and probably the most common imageboard script in use today. Recommended for beginners due to sane defaults and useful features like Tesseract OCR and DNSBL integration.",
-      "version" : "d6d1082 (031220)",
-      "status" : "maintained",
-      "last_checked" : "2021-01-13",
+      "notes" : "Essentially an improved fork of Tinyboard and probably the most common imageboard script in use today. Recommended for beginners due to sane defaults and useful features like Tesseract OCR and DNSBL integration. Upstream repository was archived in 2026; last release 5.1.5 (April 2023). Actively maintained descendants include Lainchan and Hikichan.",
+      "version" : "vichan-devel-5.1.5",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "2012"
    },
    {
@@ -17,10 +17,10 @@ script_data = [
       "download_url" : "https://github.com/oprel/emanon",
       "language" : "Perl",
       "name" : "emanon",
-      "notes" : "Modern extensions to Tablecat. Basically the de facto software for textboards now. In use at SAoVQ and other culturally significant websites. Most features are basic usability extensions to spiritual predecessors such as Shiichan.",
+      "notes" : "Modern extensions to Tablecat. Basically the de facto software for textboards now. In use at SAoVQ and other culturally significant websites. Most features are basic usability extensions to spiritual predecessors such as Shiichan. Last commit May 2016.",
       "version" : "727486f",
-      "status" : "stable",
-      "last_checked" : "2021-01-14",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2015"
    },
    {
@@ -29,10 +29,10 @@ script_data = [
       "download_url" : "https://wakaba.c3.cx/releases/Kareha/",
       "language" : "Perl",
       "name" : "Kareha",
-      "notes" : "This is my favourite script. It is easy for beginners to modify and it runs well on low-end servers. Kareha is spiritually similar to Wakaba as it is written by the same author. It is very popular in textboard communities such as 4-ch.net and sageru.org",
+      "notes" : "This is my favourite script. It is easy for beginners to modify and it runs well on low-end servers. Kareha is spiritually similar to Wakaba as it is written by the same author. It is very popular in textboard communities such as 4-ch.net and sageru.org. Latest release is still 3.1.4; the wakaba.c3.cx download directory is reachable.",
       "version" : "3.1.4",
       "status" : "stable",
-      "last_checked" : "2019-11-23",
+      "last_checked" : "2026-09-03",
       "created" : "2004?"
    },
    {
@@ -41,10 +41,10 @@ script_data = [
       "download_url" : "https://github.com/yanislav-igonin/micrach/",
       "language" : "Go",
       "name" : "micrach",
-      "notes" : "Tiny single board imageboard. Written as a side project when the author was learning Go.",
-      "version" : "aafbf6b (050222)",
+      "notes" : "Tiny single board imageboard. Written as a side project when the author was learning Go. Last commit July 2026.",
+      "version" : "642c187",
       "status" : "maintained",
-      "last_checked" : "2022-02-03",
+      "last_checked" : "2026-09-03",
       "created" : "2021"
    },
    {
@@ -53,22 +53,22 @@ script_data = [
       "download_url" : "https://bitbucket.org/796f/multichan/",
       "language" : "Python",
       "name" : "multich",
-      "notes" : "Multichan is a simple federated tag-based textboard with pseudo-image support, implemented with Python/Flask. It builds upon fashionable new federation concepts like the WebRing feature of vichan in that it also performs site-to-site replication of tags (boards) and posts. It also allows for browsing via a global index and receiving updates through Atom feeds.",
+      "notes" : "Multichan is a simple federated tag-based textboard with pseudo-image support, implemented with Python/Flask. It builds upon fashionable new federation concepts like the WebRing feature of vichan in that it also performs site-to-site replication of tags (boards) and posts. It also allows for browsing via a global index and receiving updates through Atom feeds. Bitbucket repository last updated July 2022.",
       "version" : "f0edf77 (053021)",
-      "status" : "maintained",
-      "last_checked" : "2021-05-30",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "2020"
    },
    {
       "author_name" : "bakape",
       "author_url" : "https://github.com/bakape",
-      "download_url" : "https://github.com/bakape/meguca/releases",
+      "download_url" : "https://github.com/bakape/shamichan",
       "language" : "Go",
       "name" : "meguca",
-      "notes" : "Meguca is a fast multiboard system with all the modern trappings (catalogue, merged boards, formatting, etc). Like other recent imageboard softwares, it allows the user to register an account and use it for preserving contextual state. There is a public instance of Meguca at shamik.ooo (nsfw).",
-      "version" : "6.8.0",
-      "status" : "maintained",
-      "last_checked" : "2021-01-15",
+      "notes" : "Meguca is a fast multiboard system with all the modern trappings (catalogue, merged boards, formatting, etc). Like other recent imageboard softwares, it allows the user to register an account and use it for preserving contextual state. There is a public instance of Meguca at shamik.ooo (nsfw). Repository was renamed to bakape/shamichan and later archived; last release v6.8.2 (February 2021).",
+      "version" : "v6.8.2",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "2010"
    },
    {
@@ -77,22 +77,22 @@ script_data = [
       "download_url" : "https://gitlab.com/naughtybits/schemebbs",
       "language" : "MIT Scheme",
       "name" : "SchemeBBS",
-      "notes" : "SchemeBBS powers textboard.org, it features typical kareha-style textboard features such as quoting and shiichan-style text formatting. The code itself has few dependencies and is written competently but may be too lightweight for some people.",
+      "notes" : "SchemeBBS powers textboard.org, it features typical kareha-style textboard features such as quoting and shiichan-style text formatting. The code itself has few dependencies and is written competently but may be too lightweight for some people. Last repository activity November 2021.",
       "version" : "n/a",
       "status" : "stable",
-      "last_checked" : "2019-11-23",
+      "last_checked" : "2026-09-03",
       "created" : "2018"
    },
    {
       "author_name" : "Yumi",
       "author_url" : "https://bm.howler.space/yumi/",
-      "download_url" : "https://github.com/yumi-xx/RAL",
+      "download_url" : "https://github.com/wesl-ee/RAL",
       "language" : "PHP",
       "name" : "RAL",
-      "notes" : "RAL was written specifically for howler.space and attempts to focus on so-called perpetual posting (documented as ``continuities'') with a grid-style interface for viewing threads.",
-      "version" : "v3.1",
+      "notes" : "RAL was written specifically for howler.space and attempts to focus on so-called perpetual posting (documented as ``continuities'') with a grid-style interface for viewing threads. Repository moved to wesl-ee/RAL; last activity 2021.",
+      "version" : "v1.2",
       "status" : "stable",
-      "last_checked" : "2019-11-23",
+      "last_checked" : "2026-09-03",
       "created" : "2017"
    },
    {
@@ -101,22 +101,22 @@ script_data = [
       "download_url" : "https://git.kiwifarms.net/CrunkLord420/gemboard",
       "language" : "Rust",
       "name" : "gemboard",
-      "notes" : "Gemboard is a unique textboard system designed for the Gemini protocol. It runs as a system service and uses Postgres for data persistence.",
+      "notes" : "Gemboard is a unique textboard system designed for the Gemini protocol. It runs as a system service and uses Postgres for data persistence. The git host now redirects to git.kiwifarms.st and blocks automated checks, so the last commit date could not be verified.",
       "version" : "a85e041f91",
       "status" : "stable",
-      "last_checked" : "2020-11-24",
+      "last_checked" : "2026-09-03",
       "created" : "2020"
    },
    {
       "author_name" : "majestrate",
       "author_url" : "https://github.com/majestrate",
-      "download_url" : "https://github.com/majestrate/nntpchan/releases",
+      "download_url" : "https://github.com/tomoko-dev9/nntpchan",
       "language" : "Go",
       "name" : "nntpchan",
-      "notes" : "The main feature of NNTPChan is that it uses the NNTP protocol to assist in decentralising the board data. To participate in posting, you must have permission to access a server within the graph or use a web client. For a while (between 2014-2018) it was popular, however as of 2019 it appears there are no web-accessible boards anymore.",
-      "version" : "3.1.0",
+      "notes" : "The main feature of NNTPChan is that it uses the NNTP protocol to assist in decentralising the board data. To participate in posting, you must have permission to access a server within the graph or use a web client. For a while (between 2014-2018) it was popular, however as of 2019 it appears there are no web-accessible boards anymore. Repository moved to tomoko-dev9/nntpchan; last release v3.1.0 (May 2026).",
+      "version" : "v3.1.0",
       "status" : "maintained",
-      "last_checked" : "2019-11-26",
+      "last_checked" : "2026-09-03",
       "created" : "2015"
    },
    {
@@ -125,10 +125,10 @@ script_data = [
       "download_url" : "https://github.com/kfarwell/werchan",
       "language" : "Plan 9 rc",
       "name" : "werchan",
-      "notes" : "the chan fell off. Probably a great choice if you run Plan 9 or want to use an almost CGI-free environment (!).",
-      "version" : "1.5",
-      "status" : "stable",
-      "last_checked" : "2019-11-26",
+      "notes" : "the chan fell off. Probably a great choice if you run Plan 9 or want to use an almost CGI-free environment (!). Last commit June 2016.",
+      "version" : "3e8f6ea",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2015"
    },
    {
@@ -140,7 +140,7 @@ script_data = [
       "notes" : "Treeboard is the first graph-based textboard software, designed for tree-board.net. It is implemented in C and uses a real graph implementation that renders as a giant svg file. It is remarkable in that the whole thing is implemented as a 1500 line C program.",
       "version" : "n/a",
       "status" : "stable",
-      "last_checked" : "2020-11-25",
+      "last_checked" : "2026-09-03",
       "created" : "2013?"
    },
    {
@@ -152,7 +152,7 @@ script_data = [
       "notes" : "Noder is a graph-based textboard that allows you to connect arbitrary posts to your own and visualizes them with a directed top-down graph. It is similar in spirit to TreeBoard but is more practical to navigate since it does not span horizontally.",
       "version" : "n/a",
       "status" : "maintained",
-      "last_checked" : "2020-08-25",
+      "last_checked" : "2026-09-03",
       "created" : "2019"
    },
    {
@@ -161,10 +161,10 @@ script_data = [
       "download_url" : "https://github.com/atobs/atob",
       "language" : "nodejs",
       "name" : "atob",
-      "notes" : "atob is a real-time textboard that uses a custom nodejs backend and has some unusual features such as color-based tripcodes and a real-time chat function. It also has a 'anonicator' feature which visualises live user activity. I think overall the system is very innovative.",
+      "notes" : "atob is a real-time textboard that uses a custom nodejs backend and has some unusual features such as color-based tripcodes and a real-time chat function. It also has a 'anonicator' feature which visualises live user activity. I think overall the system is very innovative. Last commit May 2016.",
       "version" : "0.1.0",
-      "status" : "maintained",
-      "last_checked" : "2020-08-25",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2013"
    },
    {
@@ -176,7 +176,7 @@ script_data = [
       "notes" : "Peachboard is an ordinary 2ch-style textboard script that powers 2board.net.",
       "version" : "n/a",
       "status" : "maintained",
-      "last_checked" : "2020-08-25",
+      "last_checked" : "2026-09-03",
       "created" : "2020"
    },
    {
@@ -188,7 +188,7 @@ script_data = [
       "notes" : "Wakaba is a very old and popular script (slightly more popular than its cousin, Kareha) derived from Futallaby code. Wakaba uses a MySQL backend for storage. Wakaba's design serves as the scaffolding for many other scripts.",
       "version" : "3.0.9",
       "status" : "stable",
-      "last_checked" : "2019-11-23",
+      "last_checked" : "2026-09-03",
       "created" : "2004"
    },
    {
@@ -197,10 +197,10 @@ script_data = [
       "download_url" : "https://github.com/fatchan/jschan",
       "language" : "nodejs",
       "name" : "jschan",
-      "notes" : "jschan is a futaba-style imageboard which uses Node.JS and MongoDB for the backend. It has some interesting features such as cyclic posts, webring support, and user-created boards. The code is almost entirely implemented by one author and uses modern development techniques like using models, migrations, etc.",
-      "version" : "ec71ffc (150220)",
-      "status" : "stable",
-      "last_checked" : "2020-02-16",
+      "notes" : "jschan is a futaba-style imageboard which uses Node.JS and MongoDB for the backend. It has some interesting features such as cyclic posts, webring support, and user-created boards. The code is almost entirely implemented by one author and uses modern development techniques like using models, migrations, etc. The GitHub repository is a mirror; the canonical home is gitgud.io/fatchan/jschan. Last release v1.7.3 (August 2025).",
+      "version" : "v1.7.3",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
       "created" : "2019"
    },
    {
@@ -209,10 +209,10 @@ script_data = [
       "download_url" : "https://github.com/derpibooru/philomena",
       "language" : "Elixir",
       "name" : "Philomena",
-      "notes" : "Philomena is a hybrid forum-imageboard script which runs as a standalone daemon. It was created specifically for derpibooru.org and features post-tagging, user registrations, forum/image search, and a Commissions function which is specific to Derpibooru.",
-      "version" : "6799622 (130320)",
-      "status" : "stable",
-      "last_checked" : "2020-03-14",
+      "notes" : "Philomena is a hybrid forum-imageboard script which runs as a standalone daemon. It was created specifically for derpibooru.org and features post-tagging, user registrations, forum/image search, and a Commissions function which is specific to Derpibooru. Last commit July 2026.",
+      "version" : "7245112",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
       "created" : "2019"
    },
    {
@@ -221,11 +221,12 @@ script_data = [
       "download_url" : "http://kusabax.cultnet.net",
       "language" : "PHP",
       "name" : "Kusaba",
-      "notes" : "Kusaba was once the most popular script for imageboards. Kusaba's history is tumultuous and colourful since it was the target of many hacking attempts partly due to the code quality and partly due to the types of communities which used it. The original author (Trevor) abandoned it in 2008 and Harrison Weston became the new maintainer.",
+      "notes" : "Kusaba was once the most popular script for imageboards. Kusaba's history is tumultuous and colourful since it was the target of many hacking attempts partly due to the code quality and partly due to the types of communities which used it. The original author (Trevor) abandoned it in 2008 and Harrison Weston became the new maintainer. kusabax.cultnet.net is unreachable (Cloudflare error 526); a copy of the source is kept in the tanami.org archive.",
       "version" : "0.9.3",
-      "status" : "stable",
-      "last_checked" : "2019-11-26",
-      "created" : "2008?"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "2008?",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Kusaba.zip"
    },
    {
       "author_name" : "Stephen Lynx",
@@ -233,10 +234,10 @@ script_data = [
       "download_url" : "https://gitgud.io/LynxChan/LynxChan/tags",
       "language" : "nodejs",
       "name" : "LynxChan",
-      "notes" : "LynxChan is a typical modern imageboard system. Over the years LynxChan has evolved into a popular fully-fledged software with a well-designed plugin system. The project is a one-man effort by Stephen Lynx. It is somewhat popular, currently being used by at least 20 websites as of writing (2021).",
-      "version" : "2.4.10",
+      "notes" : "LynxChan is a typical modern imageboard system. Over the years LynxChan has evolved into a popular fully-fledged software with a well-designed plugin system. The project is a one-man effort by Stephen Lynx. It is somewhat popular, currently being used by at least 20 websites as of writing (2021). Latest tag 2.10.2 (February 2026).",
+      "version" : "2.10.2",
       "status" : "maintained",
-      "last_checked" : "2021-01-15",
+      "last_checked" : "2026-09-03",
       "created" : "2015"
    },
    {
@@ -245,10 +246,10 @@ script_data = [
       "download_url" : "https://github.com/DangerOnTheRanger/maniwani",
       "language" : "Python",
       "name" : "maniwani",
-      "notes" : "Maniwani is an experimental BBS which purveys many modern ideologies such as REST API support, real-time updates and CDN support. The script is mainly being used by futatsu.org.",
-      "version" : "f8f850c (071020)",
-      "status" : "maintained",
-      "last_checked" : "2020-01-14",
+      "notes" : "Maniwani is an experimental BBS which purveys many modern ideologies such as REST API support, real-time updates and CDN support. The script is mainly being used by futatsu.org. Last commit August 2021.",
+      "version" : "d24c428",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "2018"
    },
    {
@@ -257,11 +258,12 @@ script_data = [
       "download_url" : "https://github.com/joshiemoore/NodeChan",
       "language" : "Java",
       "name" : "NodeChan",
-      "notes" : "NodeChan is a Java-based peer-to-peer textboard client which relies on UPNP or the use of gossip servers to discover peers that contain other messages and threads on the board. It is by nature highly-decentralised and is therefore well-suited to use in a LAN scenario. At the time of writing, the implementation is incomplete but provides a functional proof-of-concept which seems reasonably simple to extend.",
+      "notes" : "NodeChan is a Java-based peer-to-peer textboard client which relies on UPNP or the use of gossip servers to discover peers that contain other messages and threads on the board. It is by nature highly-decentralised and is therefore well-suited to use in a LAN scenario. At the time of writing, the implementation is incomplete but provides a functional proof-of-concept which seems reasonably simple to extend. The GitHub repository has been removed.",
       "version" : "9ba6909 (120819)",
-      "status" : "stable",
-      "last_checked" : "2019-11-30",
-      "created" : "2019"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "2019",
+      "archive_url" : "https://web.archive.org/web/2019/https://github.com/joshiemoore/NodeChan"
    },
    {
       "author_name" : "steenuil",
@@ -269,10 +271,10 @@ script_data = [
       "download_url" : "https://github.com/steinuil/negoto",
       "language" : "Ur",
       "name" : "negoto",
-      "notes" : "Negoto is a simple Futaba-style imageboard system written in the Ur/Web typed system. Currently it is not being further developed but provides a good basis for developing something more complex.",
-      "version" : "144241e (130818)",
+      "notes" : "Negoto is a simple Futaba-style imageboard system written in the Ur/Web typed system. Currently it is not being further developed but provides a good basis for developing something more complex. Last commit February 2021.",
+      "version" : "49efe6b",
       "status" : "stable",
-      "last_checked" : "2019-11-30",
+      "last_checked" : "2026-09-03",
       "created" : "2017"
    },
    {
@@ -281,10 +283,10 @@ script_data = [
       "download_url" : "http://git.tanami.org/ModernStuff/phutaba",
       "language" : "Perl",
       "name" : "Phutaba",
-      "notes" : "Originally written for ernstchan.net, Phutaba is a heavily-modified extension of Wakaba which adds post statistics, EXIF data extraction, catalog mode, and other small changes. As of 2021, it seems that ernstchan.com is no longer functional and the original github repository has been taken down.",
+      "notes" : "Originally written for ernstchan.net, Phutaba is a heavily-modified extension of Wakaba which adds post statistics, EXIF data extraction, catalog mode, and other small changes. As of 2021, it seems that ernstchan.com is no longer functional and the original github repository has been taken down. git.tanami.org returned 502 Bad Gateway when checked.",
       "version" : "ae541ef (230618)",
       "status" : "discontinued",
-      "last_checked" : "2021-01-15",
+      "last_checked" : "2026-09-03",
       "created" : "2010"
    },
    {
@@ -293,10 +295,10 @@ script_data = [
       "download_url" : "https://github.com/infinity-next/infinity-next",
       "language" : "PHP",
       "name" : "Infinity Next",
-      "notes" : "Infinity Next is a complete imageboard system implemented in Laravel. It was originally intended to be the replacement script for 8chan.net. It has a very high quality codebase and uses modern PHP practices. It would be a sensible choice for somebody looking to create a multi-imageboard website.",
-      "version" : "08/11/19 (git)",
-      "status" : "maintained",
-      "last_checked" : "2019-11-30",
+      "notes" : "Infinity Next is a complete imageboard system implemented in Laravel. It was originally intended to be the replacement script for 8chan.net. It has a very high quality codebase and uses modern PHP practices. It would be a sensible choice for somebody looking to create a multi-imageboard website. Repository is archived; last release 0.5.1 (March 2021).",
+      "version" : "0.5.1",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "2015"
    },
    {
@@ -305,10 +307,10 @@ script_data = [
       "download_url" : "https://github.com/ahushh/Monaba",
       "language" : "Haskell",
       "name" : "Monaba",
-      "notes" : "Rich, featureful script implemented in the Yesod framework for Haskell. Mainly designed for haibane.ru, it has special functions for Tor-only operation and a tripcode replacement scheme called \"prooflables\". The system is straddling the line between pseudononymous systems and traditional forums as it supports private messaging and other user-identifying functions.",
-      "version" : "2.6.2",
-      "status" : "maintained",
-      "last_checked" : "2021-01-15",
+      "notes" : "Rich, featureful script implemented in the Yesod framework for Haskell. Mainly designed for haibane.ru, it has special functions for Tor-only operation and a tripcode replacement scheme called \"prooflables\". The system is straddling the line between pseudononymous systems and traditional forums as it supports private messaging and other user-identifying functions. Last commit 2021; last release v2.5.0 (2016).",
+      "version" : "v2.5.0",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "2013"
    },
    {
@@ -317,10 +319,10 @@ script_data = [
       "download_url" : "https://gitgud.io/blazechan/blazechan",
       "language" : "PHP",
       "name" : "BlazeChan",
-      "notes" : "pending futher information",
+      "notes" : "pending futher information. Last repository activity May 2019.",
       "version" : "0.12.0",
-      "status" : "unknown",
-      "last_checked" : "2021-01-15",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2016"
    },
    {
@@ -329,10 +331,10 @@ script_data = [
       "download_url" : "https://github.com/dequis/wakarimasen/releases",
       "language" : "Python",
       "name" : "wakarimasen",
-      "notes" : "Wakarimasen is written for desuchan.net. Originally wakaba-compatible, it features an extended admin panel and supports multiple boards.",
+      "notes" : "Wakarimasen is written for desuchan.net. Originally wakaba-compatible, it features an extended admin panel and supports multiple boards. Last commit February 2017.",
       "version" : "1.1",
-      "status" : "stable",
-      "last_checked" : "2020-11-24",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2010"
    },
    {
@@ -341,10 +343,10 @@ script_data = [
       "download_url" : "https://github.com/marlencrabapple/Glaukaba",
       "language" : "Perl",
       "name" : "Glaukaba",
-      "notes" : "wakaba fork with a lot of new changes",
-      "version" : "0.125",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "wakaba fork with a lot of new changes. Last commit March 2015.",
+      "version" : "a5acd21",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -353,10 +355,10 @@ script_data = [
       "download_url" : "https://github.com/MitsubaBBS/Mitsuba",
       "language" : "PHP",
       "name" : "Mitsuba",
-      "notes" : "made from scratch, has a module system",
-      "version" : "rev 762",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "made from scratch, has a module system. Last commit August 2014.",
+      "version" : "d7b7e0d",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -365,11 +367,12 @@ script_data = [
       "download_url" : "http://www.1chan.net/futallaby/",
       "language" : "PHP",
       "name" : "Futallaby",
-      "notes" : "Futallaby is historically important, serving as the original codebase for 4chan.org. It is derived heavily from Futaba. Futallaby inspired many other scripts such as Kusaba, TinyIB, Tinyboard, TinyBB, etc.",
+      "notes" : "Futallaby is historically important, serving as the original codebase for 4chan.org. It is derived heavily from Futaba. Futallaby inspired many other scripts such as Kusaba, TinyIB, Tinyboard, TinyBB, etc. The 1chan.net download page is gone (404); a copy is kept in the tanami.org archive.",
       "version" : "040103",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "2003"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "2003",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Futabally.zip"
    },
    {
       "author_name" : "Futaba Channel",
@@ -377,10 +380,10 @@ script_data = [
       "download_url" : "https://www.2chan.net/script/",
       "language" : "PHP",
       "name" : "Futaba",
-      "notes" : "Futaba is the historical script written for 2chan.net which served as the spiritual basis for the vast majority of all other imageboard scripts. The significance of this script for the greater *chan community is understated.",
+      "notes" : "Futaba is the historical script written for 2chan.net which served as the spiritual basis for the vast majority of all other imageboard scripts. The significance of this script for the greater *chan community is understated. Still distributed from 2chan.net; latest version is the 2005 release.",
       "version" : "051031",
       "status" : "stable",
-      "last_checked" : "2019-11-26",
+      "last_checked" : "2026-09-03",
       "created" : "2001"
    },
    {
@@ -389,22 +392,22 @@ script_data = [
       "download_url" : "https://github.com/Floens/uchan",
       "language" : "Python",
       "name" : "μchan",
-      "notes" : "Focus on separation of concerns.",
-      "version" : "n/a",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "Focus on separation of concerns. Last commit June 2023.",
+      "version" : "d068738",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
       "author_name" : "emgram769",
       "author_url" : "https://github.com/emgram769",
-      "download_url" : "https://github.com/emgram769/live4chan",
+      "download_url" : "https://github.com/emgram769/livechan-js",
       "language" : "node.js",
       "name" : "livechan",
-      "notes" : "self-styled \"IRC-like imageboard\"",
-      "version" : "n/a",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "self-styled \"IRC-like imageboard\". Repository renamed to livechan-js; last commit October 2019.",
+      "version" : "19de727",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -413,10 +416,10 @@ script_data = [
       "download_url" : "https://github.com/lalcmellkmal/doushio",
       "language" : "node.js",
       "name" : "Doushio",
-      "notes" : "uses Redis as a datastore",
-      "version" : "rev 1.465",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "uses Redis as a datastore. Last release 0.3.1 (2013); repository last touched 2023.",
+      "version" : "0.3.1",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -425,10 +428,10 @@ script_data = [
       "download_url" : "https://github.com/FoolCode/FoolFuuka",
       "language" : "PHP",
       "name" : "FoolFuuka",
-      "notes" : "made for archiving *boards, very fast",
-      "version" : "0.730",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "made for archiving *boards, very fast. Repository is archived; last release 2.2.1 (June 2016).",
+      "version" : "2.2.1",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -440,7 +443,7 @@ script_data = [
       "notes" : "A script that I wrote in a weekend, largely inspired by Kareha. I ran it on 9ch.in for a while but now it is unmaintained.",
       "version" : "0.5.1",
       "status" : "unmaintained",
-      "last_checked" : "2019-11-23",
+      "last_checked" : "2026-09-03",
       "created" : "2008"
    },
    {
@@ -449,11 +452,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/drydock/",
       "language" : "PHP",
       "name" : "Drydock",
-      "notes" : "Drydock was a multi-board imageboard script which featurs a complete administration interface, similar to Kusaba. It was one of the first scripts to include a blotter function and image capcodes. The author appears to have stopped development since mid-2013. It was previously being used as the backend for kchan (url unknown).",
+      "notes" : "Drydock was a multi-board imageboard script which featurs a complete administration interface, similar to Kusaba. It was one of the first scripts to include a blotter function and image capcodes. The author appears to have stopped development since mid-2013. It was previously being used as the backend for kchan (url unknown). Preserved in the Google Code Archive.",
       "version" : "r291",
       "status" : "discontinued",
-      "last_checked" : "2019-11-26",
-      "created" : "2008"
+      "last_checked" : "2026-09-03",
+      "created" : "2008",
+      "archive_url" : "https://code.google.com/archive/p/drydock/"
    },
    {
       "author_name" : "sabitsuki",
@@ -461,10 +465,10 @@ script_data = [
       "download_url" : "https://github.com/153/iyagi-bbs/",
       "language" : "Python",
       "name" : "iyagi",
-      "notes" : "new clone of tablecat's backend",
-      "version" : "4b4e080",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "new clone of tablecat's backend. Last commit September 2018.",
+      "version" : "2.0",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -473,10 +477,10 @@ script_data = [
       "download_url" : "https://github.com/Vladimir37/Hanako/",
       "language" : "node.js",
       "name" : "Hanako",
-      "notes" : "strong focus on scalability",
+      "notes" : "strong focus on scalability. Repository is archived; last commit January 2016.",
       "version" : "1.0.0",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -485,11 +489,12 @@ script_data = [
       "download_url" : "http://spacetaken.net/img2/",
       "language" : "PHP",
       "name" : "img2",
-      "notes" : "untested",
+      "notes" : "untested. spacetaken.net no longer resolves; a copy is kept in the tanami.org archive.",
       "version" : "061610",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/img2.zip"
    },
    {
       "author_name" : "Matthew Trevino",
@@ -497,11 +502,12 @@ script_data = [
       "download_url" : "https://github.com/matthew-trevino/regularboard",
       "language" : "PHP",
       "name" : "Regular Board",
-      "notes" : "channel-style filtering, forum-like layout",
+      "notes" : "channel-style filtering, forum-like layout. The GitHub repository has been removed; a copy is kept in the tanami.org archive.",
       "version" : "9528cce",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Regular%20Board.zip"
    },
    {
       "author_name" : "Shii",
@@ -509,10 +515,10 @@ script_data = [
       "download_url" : "http://wakaba.c3.cx/shii/shiichan",
       "language" : "PHP",
       "name" : "Shiichan",
-      "notes" : "use Kareha instead",
+      "notes" : "Shiichan was a 2ch-type board in PHP written in late 2004 by Shii. The author states it is a buggy beta and that no development is planned; the page is kept for the anonymity essay on it. Use Kareha instead.",
       "version" : "3960",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -521,11 +527,12 @@ script_data = [
       "download_url" : "https://bitbucket.org/thewiz/gibson-bbs/overview",
       "language" : "node.js",
       "name" : "gibson",
-      "notes" : "emulates pre-internet BBSen with a JS console",
+      "notes" : "emulates pre-internet BBSen with a JS console. The Bitbucket repository is gone.",
       "version" : "1.30",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2019/https://bitbucket.org/thewiz/gibson-bbs/overview"
    },
    {
       "author_name" : "hotaru2k3",
@@ -533,11 +540,12 @@ script_data = [
       "download_url" : "https://github.com/hotaru2k3/",
       "language" : "Perl",
       "name" : "TinyBB",
-      "notes" : "there is TinyBB &amp; TinyBBv3",
+      "notes" : "there is TinyBB &amp; TinyBBv3. hotaru2k3's GitHub account no longer exists; a copy is kept in the tanami.org archive.",
       "version" : "???",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/tinybb3.zip"
    },
    {
       "author_name" : "``maiko''",
@@ -545,11 +553,12 @@ script_data = [
       "download_url" : "http://tablecat.co.cc/bbs/",
       "language" : "Perl",
       "name" : "Tablecat",
-      "notes" : "VIP",
+      "notes" : "VIP. tablecat.co.cc expired and now serves a domain parked page; a copy is kept in the tanami.org archive.",
       "version" : "240411",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Tablecat.zip"
    },
    {
       "author_name" : "???",
@@ -557,22 +566,23 @@ script_data = [
       "download_url" : "http://siokara.que.jp/",
       "language" : "PHP",
       "name" : "Siokara",
-      "notes" : "not updated since 2004",
+      "notes" : "not updated since 2004. siokara.que.jp is down; a copy is kept in the tanami.org archive.",
       "version" : "1.04a",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/siokara.zip"
    },
    {
       "author_name" : "tslocum",
       "author_url" : "https://github.com/tslocum/",
-      "download_url" : "https://github.com/tslocum/PyIB-Standalone",
+      "download_url" : "https://github.com/tslocum/PyIB",
       "language" : "Python",
       "name" : "PyIB",
-      "notes" : "PyIB was originally written for PAQ.CC, an invite-only imageboard which used a system of referral tokens. Unfortunately the available source-code does not include this feature. The author appeared to stop development shortly after PAQ.CC went down.",
+      "notes" : "PyIB was originally written for PAQ.CC, an invite-only imageboard which used a system of referral tokens. Unfortunately the available source-code does not include this feature. The author appeared to stop development shortly after PAQ.CC went down. PyIB-Standalone has been removed from GitHub; the older tslocum/PyIB repository (last commit 2014) is still there.",
       "version" : "r66",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -581,10 +591,10 @@ script_data = [
       "download_url" : "http://yui-cynthia-bne-jp.cocolog-nifty.com/blog/",
       "language" : "PHP",
       "name" : "Cynthia",
-      "notes" : "japanese",
+      "notes" : "japanese. The author suspended the service in 2009 and it never came back.",
       "version" : "02e1",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -593,11 +603,12 @@ script_data = [
       "download_url" : "http://4ch.irc.su/",
       "language" : "PHP",
       "name" : "Yotsubanome",
-      "notes" : "written by a retard",
+      "notes" : "written by a retard. 4ch.irc.su is down.",
       "version" : "who cares",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2019/http://4ch.irc.su/"
    },
    {
       "author_name" : "Trevor Slocum",
@@ -605,10 +616,10 @@ script_data = [
       "download_url" : "https://codeberg.org/tslocum/sriracha",
       "language" : "Go",
       "name" : "Sriracha",
-      "notes" : "Supports oekaki, plugins and custom templates.",
-      "version" : "1.0.7",
-      "status" : "stable",
-      "last_checked" : "2025-05-13",
+      "notes" : "Supports oekaki, plugins and custom templates. Latest release v2.0.8 (August 2026).",
+      "version" : "2.0.8",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
       "created" : "2025-04-10"
    },
    {
@@ -617,22 +628,22 @@ script_data = [
       "download_url" : "https://codeberg.org/tslocum/tinyib",
       "language" : "PHP",
       "name" : "TinyIB",
-      "notes" : "Supports MySQL, PostgreSQL, SQLite and flat file databases.",
+      "notes" : "Supports MySQL, PostgreSQL, SQLite and flat file databases. No tagged releases; the repository is updated regularly (last activity July 2026).",
       "version" : "Rolling",
-      "status" : "stable",
-      "last_checked" : "2025-05-13",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
       "created" : "2009-09-19"
    },
    {
       "author_name" : "kent-web",
       "author_url" : "http://www.kent-web.com",
-      "download_url" : "http://www.kent-web.com/bbs/joyful.html",
+      "download_url" : "https://www.kent-web.com/bbs/joyful.html",
       "language" : "PHP",
       "name" : "Joyful Note",
-      "notes" : "japanese, untested",
-      "version" : "2.73",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "Japanese Perl CGI board from the KENT-WEB collection: a thread-style board with image uploads, thumbnails, admin mail notification, search and past-log generation. Current version is 7.3 (UTF-8), and the KENT-WEB site is still online.",
+      "version" : "7.3",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -641,10 +652,10 @@ script_data = [
       "download_url" : "http://ochiba.x-maru.org/",
       "language" : "PHP",
       "name" : "Ochiba",
-      "notes" : "Ochiba was created out of the author's desire for a hybrid bbs script which allowed for imageboard-style commenting on top of a photo-blogging interface. It also supports RSS feeds, multiple-file uploads, and a keyword system for filtering.",
+      "notes" : "Ochiba was created out of the author's desire for a hybrid bbs script which allowed for imageboard-style commenting on top of a photo-blogging interface. It also supports RSS feeds, multiple-file uploads, and a keyword system for filtering. Last release 1.2.1 (October 2009), though the site is still up.",
       "version" : "1.2.1",
-      "status" : "stable",
-      "last_checked" : "2019-11-26",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2004"
    },
    {
@@ -653,22 +664,23 @@ script_data = [
       "download_url" : "http://code.google.com/p/4chandk/downloads/list",
       "language" : "PHP",
       "name" : "4chandk",
-      "notes" : "appears to be dead.",
+      "notes" : "appears to be dead. The project page itself says it is unmaintained and looking for a new maintainer; preserved in the Google Code Archive.",
       "version" : "240207",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://code.google.com/archive/p/4chandk/"
    },
    {
       "author_name" : "various",
       "author_url" : "#none",
-      "download_url" : "http://pixmicat.openfoundry.org/",
+      "download_url" : "https://github.com/pixmicat/pixmicat",
       "language" : "PHP",
       "name" : "Pixmicat",
-      "notes" : "taiwanese script based on japanese source",
+      "notes" : "taiwanese script based on japanese source. pixmicat.openfoundry.org is gone; the source lives on GitHub (last commit 2016).",
       "version" : "6",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -680,19 +692,19 @@ script_data = [
       "notes" : "untested",
       "version" : "4.xx",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
       "author_name" : "???",
       "author_url" : "http://php.s3.to/",
-      "download_url" : "https://github.com/k0me0/gazoubbsfix",
+      "download_url" : "https://github.com/fuki98/gazoubbsfix-en",
       "language" : "PHP",
       "name" : "GazouBBS",
-      "notes" : "Ancient, but fundamental to BBS script history. Some people (i.e. ToR) have written patched and translated editions (see: https://github.com/fukionline/gazoubbsfix-en).",
-      "version" : "v3.6.",
-      "status" : "stable",
-      "last_checked" : "2024-06-29",
+      "notes" : "Ancient, but fundamental to BBS script history. Some people (i.e. ToR) have written patched and translated editions (see: https://github.com/fukionline/gazoubbsfix-en). k0me0/gazoubbsfix has been removed from GitHub; this fork keeps GazouBBS running on PHP 7 and translates it to English (last commit 2023).",
+      "version" : "3.6",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2001"
    },
    {
@@ -704,7 +716,7 @@ script_data = [
       "notes" : "this might be an alias for GazouBBS",
       "version" : "???",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -716,7 +728,7 @@ script_data = [
       "notes" : "Yotsuba was written by team4chan for 4chan.org. It originally drew heavily from Futallaby's codebase but is now most likely using more ``scalable'' PHP practices. The download link is for an older leaked copy of the board rendering component.",
       "version" : "closed-source",
       "status" : "maintained",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "2003"
    },
    {
@@ -728,7 +740,7 @@ script_data = [
       "notes" : "REchan was written by a famous /prog/ shitposter for rechan.eu.org, it has a similar appearance to Kusaba X but evidence from archive.org suggests that it was written from scratch. Unfortunately there is no publicly-available source code since the main website went down.",
       "version" : "080726 (r4)",
       "status" : "unmaintained",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "2008"
    },
    {
@@ -740,7 +752,7 @@ script_data = [
       "notes" : "SYNchan's script",
       "version" : "???",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -749,10 +761,10 @@ script_data = [
       "download_url" : "https://github.com/savetheinternet/Tinyboard",
       "language" : "PHP",
       "name" : "Tinyboard",
-      "notes" : "Originally written for 4chon.net, Tinyboard was the first imageboard to utilise DNSBL filtering and make use of modern PHP practices, such as using APC for caching. The codebase has been used as the basis for other projects such as vichan.",
-      "version" : "0.9.2",
+      "notes" : "Originally written for 4chon.net, Tinyboard was the first imageboard to utilise DNSBL filtering and make use of modern PHP practices, such as using APC for caching. The codebase has been used as the basis for other projects such as vichan. Last release v0.9.5 (2014); the repository only saw housekeeping commits in 2024. Superseded in practice by vichan.",
+      "version" : "v0.9.5",
       "status" : "stable",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "2010"
    },
    {
@@ -764,19 +776,19 @@ script_data = [
       "notes" : "420chan's script. A very heavily modified and enhanced fork of Wakaba, adding many modern features and, amusingly, dynamic PHP output, making it an odd hybrid platform with a distinct backend and frontend.",
       "version" : "0.2.1",
       "status" : "stable",
-      "last_checked" : "2020-06-12",
+      "last_checked" : "2026-09-03",
       "created" : "2007-04-01"
    },
    {
       "author_name" : "Storlek",
       "author_url" : "http://j.rigelseven.com/",
-      "download_url" : "https://github.com/Storlek/matsuba",
+      "download_url" : "https://github.com/0x5742/matsuba",
       "language" : "PHP?",
       "name" : "Matsuba",
-      "notes" : "sovietrussia's script",
-      "version" : "(git)",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "sovietrussia's script. Repository moved to 0x5742/matsuba; last commit June 2015.",
+      "version" : "01f2650",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -785,10 +797,10 @@ script_data = [
       "download_url" : "http://www.wajett.net/labs/cb_02.php",
       "language" : "???",
       "name" : "C-BOARD",
-      "notes" : "The download URL provided is for a modded version of C-BOARD. I cannot locate the original source.",
+      "notes" : "The download URL provided is for a modded version of C-BOARD. I cannot locate the original source. Still redistributed (with permission) from Wajett Systems.",
       "version" : "3.8",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -800,67 +812,70 @@ script_data = [
       "notes" : "K-board has a couple of experimental features such as a \"post map\" which shows how many posts each user has made.",
       "version" : "1.9",
       "status" : "unmaintained",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
       "author_name" : "Tacky",
       "author_url" : "#none",
-      "download_url" : "http://tackysroom.com/cgi/cgi_tackynote.htm",
+      "download_url" : "https://tackysroom.com/cgi/tackynote/",
       "language" : "Perl",
       "name" : "Tackynote",
-      "notes" : "untested",
+      "notes" : "Japanese Perl CGI diary/board script from Tacky's Room. The old /cgi/*.htm URLs are gone, but the script now has its own page with a download link. Last version 0.996 (February 2004). A copy is also kept in the tanami.org archive.",
       "version" : "0.996",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Tackynote.zip"
    },
    {
       "author_name" : "Tacky",
       "author_url" : "#none",
-      "download_url" : "http://tackysroom.com/cgi/cgi_mkakikomitai2.htm",
+      "download_url" : "https://tackysroom.com/cgi/mkakikomitai2/",
       "language" : "Perl",
       "name" : "Mkakikomitai",
-      "notes" : "japanese, emoticons and shit",
+      "notes" : "Japanese Perl CGI board ('Motto Kakikomitai 2') from Tacky's Room: icons, trips, sage, uploads, RSS and a mobile mode. The old /cgi/*.htm URLs are gone, but the script now has its own page with a download link. Last version 0.73 (July 2009). A copy is also kept in the tanami.org archive.",
       "version" : "0.73",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Mkakikomitai.zip"
    },
    {
       "author_name" : "Tacky",
       "author_url" : "http://tackysroom.com",
-      "download_url" : "http://tackysroom.com/cgi/cgi_tackyvote.htm",
+      "download_url" : "https://tackysroom.com/cgi/tackyvote/",
       "language" : "Perl",
       "name" : "Tackyvote",
-      "notes" : "",
-      "version" : "0.95",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "notes" : "Japanese Perl CGI poll script from Tacky's Room, with multiple ballots per install and comment display. The old /cgi/*.htm URLs are gone, but the script now has its own page with a download link. Last version 0.999c (February 2009). A copy is also kept in the tanami.org archive.",
+      "version" : "0.999c",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Tackyvote.zip"
    },
    {
       "author_name" : "Tacky",
       "author_url" : "http://tackysroom.com/",
-      "download_url" : "http://tackysroom.com/cgi/cgi_mezase2.htm",
+      "download_url" : "https://tackysroom.com/cgi/",
       "language" : "Perl",
       "name" : "Mezase2",
-      "notes" : "",
+      "notes" : "Japanese CGI game board from Tacky's Room ('Mezase sekai seiha'). The old page is gone and the CGI index no longer offers a download, though the site is still online.",
       "version" : "0.58",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
       "author_name" : "iignotus",
       "author_url" : "http://sourceforge.net/projects/ignium/",
-      "download_url" : "http://sourceforge.net/projects/ignium/",
+      "download_url" : "https://sourceforge.net/projects/ignium/",
       "language" : "PHP",
       "name" : "Ignium",
-      "notes" : "untested, website is horrid",
+      "notes" : "untested, website is horrid. Still downloadable from SourceForge, but the last update was March 2013.",
       "version" : "170709",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -869,11 +884,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/hachan/",
       "language" : "PHP",
       "name" : "Ha Chan",
-      "notes" : "not actively developed?",
+      "notes" : "not actively developed? Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "1.07",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Ha%20Chan.zip"
    },
    {
       "author_name" : "tehHedger",
@@ -881,11 +897,12 @@ script_data = [
       "download_url" : "http://orphereus.anoma.ch/",
       "language" : "Python",
       "name" : "Orphereus",
-      "notes" : "python, \"modular\"",
+      "notes" : "python, \"modular\". orphereus.anoma.ch serves an empty wiki page; a copy is kept in the tanami.org archive.",
       "version" : "???",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Orphereus.zip"
    },
    {
       "author_name" : "k-anon",
@@ -893,11 +910,12 @@ script_data = [
       "download_url" : "https://suigintou.weedy.ca/trac/desuchan/browser/trunk",
       "language" : "Perl",
       "name" : "desuchan",
-      "notes" : "forked from wakaba, lots of changes",
+      "notes" : "forked from wakaba, lots of changes. The Trac host suigintou.weedy.ca is down; a copy is kept in the tanami.org archive.",
       "version" : "rev 168",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/desuchan.zip"
    },
    {
       "author_name" : "unknown",
@@ -905,11 +923,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/ochan/",
       "language" : "Java",
       "name" : "ochan",
-      "notes" : "ENTERPRISE QUALITY",
+      "notes" : "ENTERPRISE QUALITY. Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "r326",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/ochan.zip"
    },
    {
       "author_name" : "airflow83",
@@ -917,11 +936,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/kotoba-ib/",
       "language" : "PHP",
       "name" : "kotoba-ib",
-      "notes" : "russian",
+      "notes" : "russian. Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "r437",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/kotobo-ib.zip"
    },
    {
       "author_name" : "to-ru",
@@ -932,7 +952,7 @@ script_data = [
       "notes" : "quite popular in japan",
       "version" : "1.22",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -941,11 +961,12 @@ script_data = [
       "download_url" : "http://www.rescue.ne.jp/cgi/minibbs1/",
       "language" : "Perl",
       "name" : "minibbs",
-      "notes" : "japanese",
+      "notes" : "japanese. rescue.ne.jp no longer serves the page (404); a copy is kept in the tanami.org archive.",
       "version" : "10.32",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/minibbs.zip"
    },
    {
       "author_name" : "unknown",
@@ -953,11 +974,12 @@ script_data = [
       "download_url" : "http://www.sweetnote.com/",
       "language" : "unknown",
       "name" : "Sweetnote",
-      "notes" : "proprietary?",
+      "notes" : "proprietary? sweetnote.com is down.",
       "version" : "unknown",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2019/http://www.sweetnote.com/"
    },
    {
       "author_name" : "unknown",
@@ -965,11 +987,12 @@ script_data = [
       "download_url" : "http://sourceforge.jp/projects/sfnet_imageboard/",
       "language" : "",
       "name" : "imageboard",
-      "notes" : "lol",
+      "notes" : "lol. SourceForge.jp shut down in 2017.",
       "version" : "1.21",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2016/http://sourceforge.jp/projects/sfnet_imageboard/"
    },
    {
       "author_name" : "ivarch",
@@ -977,22 +1000,23 @@ script_data = [
       "download_url" : "http://freshmeat.net/projects/mconv",
       "language" : "Perl",
       "name" : "mconv",
-      "notes" : "last updated in 2004, archaic",
+      "notes" : "last updated in 2004, archaic. Freshmeat was shut down by SourceForge and now redirects to a directory page.",
       "version" : "1.2.7",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2013/http://freshmeat.net/projects/mconv"
    },
    {
       "author_name" : "spoot",
       "author_url" : "mailto:spoot@saguaroimgboard.co.cc ",
-      "download_url" : "http://saguaroimgboard.co.cc/download/",
+      "download_url" : "https://github.com/saguaroib/saguaro",
       "language" : "PHP",
       "name" : "Saguaro",
-      "notes" : "based on futallaby",
+      "notes" : "based on futallaby. saguaroimgboard.co.cc expired; the source lives on GitHub (last commit 2018).",
       "version" : "0.97.5",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1001,11 +1025,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/kakaha/",
       "language" : "PHP",
       "name" : "Kakaha",
-      "notes" : "uses SQLite backend",
+      "notes" : "uses SQLite backend. Google Code is gone and the project was never included in the Google Code Archive.",
       "version" : "r21",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2016/http://code.google.com/p/kakaha/"
    },
    {
       "author_name" : "hamilyon",
@@ -1013,10 +1038,10 @@ script_data = [
       "download_url" : "https://github.com/hamilyon/himgb",
       "language" : "Haskell",
       "name" : "himgb",
-      "notes" : "This script is really old, the earliest mention of it is an old /prog/ thread. I have not seen it in use.",
-      "version" : "290412 (git)",
-      "status" : "stable",
-      "last_checked" : "2019-03-12",
+      "notes" : "This script is really old, the earliest mention of it is an old /prog/ thread. I have not seen it in use. Last commit March 2012.",
+      "version" : "5626f57",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2007"
    },
    {
@@ -1025,11 +1050,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/backyardimgboard/",
       "language" : "PHP",
       "name" : "backyard",
-      "notes" : "looks buggy",
+      "notes" : "looks buggy. Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "0.0.5",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/backyard.zip"
    },
    {
       "author_name" : "tslocum",
@@ -1037,11 +1063,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/p2pchan/",
       "language" : "python",
       "name" : "p2pchan",
-      "notes" : "windows-only?",
+      "notes" : "windows-only? Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "???",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/p2pchan.zip"
    },
    {
       "author_name" : "Albright",
@@ -1052,7 +1079,7 @@ script_data = [
       "notes" : "Thorn was the author's first attempt at making an imageboard, based on Wakaba. The author has requested that I do not provide sources or other information so this serves simply as a reference to the fact it existed and was used at some point.",
       "version" : "n/a",
       "status" : "discontinued",
-      "last_checked" : "2019-11-26",
+      "last_checked" : "2026-09-03",
       "created" : "n/a"
    },
    {
@@ -1064,7 +1091,7 @@ script_data = [
       "notes" : "Anonsaba is apparently back-doored, DO NOT USE",
       "version" : "0.1",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1073,10 +1100,10 @@ script_data = [
       "download_url" : "https://git.bienvenidoainternet.org/bai/weabot/",
       "language" : "Python",
       "name" : "weabot",
-      "notes" : "based on PyIB with most of the Kusaba feature set",
+      "notes" : "based on PyIB with most of the Kusaba feature set. Last commit July 2023.",
       "version" : "0.8.10",
-      "status" : "maintained",
-      "last_checked" : "2021-03-31",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
       "created" : "2014"
    },
    {
@@ -1088,7 +1115,7 @@ script_data = [
       "notes" : "very, very old",
       "version" : "4.9",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1097,10 +1124,10 @@ script_data = [
       "download_url" : "http://mewc.to/CGI/miniboard.html",
       "language" : "Perl",
       "name" : "miniboard",
-      "notes" : "also very old (1997!)",
+      "notes" : "A tiny C CGI board from Myu's Lab: all posts on one page, cookie support and a configurable post limit. Very old (1997). The mewc.to page is still online, but the script has not changed since then.",
       "version" : "1.1",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1109,34 +1136,35 @@ script_data = [
       "download_url" : "http://code.google.com/p/arcnet",
       "language" : "PHP",
       "name" : "arcNET",
-      "notes" : "used on 4chon, 314chan and mikuchan ",
+      "notes" : "used on 4chon, 314chan and mikuchan. Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "r32",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/arcNET.zip"
    },
    {
       "author_name" : "Kazer",
       "author_url" : "http://kazer.es",
-      "download_url" : "http://sourceforge.net/projects/excelis/",
+      "download_url" : "https://sourceforge.net/projects/excelis/",
       "language" : "PHP",
       "name" : "Excelis",
-      "notes" : "untested, has smilies and such",
-      "version" : "1.6",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "untested, has smilies and such. Still downloadable from SourceForge (last release 1.13, 2015). The project page says development moved to GitHub, but no such repository could be found.",
+      "version" : "1.13",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
       "author_name" : "unknown",
       "author_url" : "#none",
-      "download_url" : "http://nelliel.com",
+      "download_url" : "https://github.com/NellielProject/Nelliel",
       "language" : "PHP",
       "name" : "Nelliel",
-      "notes" : "looks to be a decent Futallaby rewrite",
-      "version" : "v0.9b-r5",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "looks to be a decent Futallaby rewrite. nelliel.com now redirects to the GitHub repository, which is actively developed (last commit March 2026).",
+      "version" : "v0.9.33",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1145,11 +1173,12 @@ script_data = [
       "download_url" : "http://svn.dasaku.net/listing.php?repname=naranai&",
       "language" : "PHP",
       "name" : "Naranai",
-      "notes" : "danbooru-type image script",
+      "notes" : "danbooru-type image script. The svn.dasaku.net repository is gone; a copy is kept in the tanami.org archive.",
       "version" : "r50",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/naranai.zip"
    },
    {
       "author_name" : "Ere Whitehouse",
@@ -1157,22 +1186,23 @@ script_data = [
       "download_url" : "http://www.rateitstar.com/software.php",
       "language" : "PHP",
       "name" : "NitPick",
-      "notes" : "image-posting, unlimited thread length?",
+      "notes" : "image-posting, unlimited thread length? rateitstar.com is gone.",
       "version" : "unknown",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created" : "unknown"
+      "status" : "missing",
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://web.archive.org/web/2016/http://www.rateitstar.com/software.php"
    },
    {
       "author_name" : "hotaru2k3",
       "author_url" : "http://hotaru.thinkindifferent.net",
-      "download_url" : "https://github.com/hotaru2k3/PerlHP-bbs",
+      "download_url" : "https://github.com/lilyanatia/PerlHP-bbs",
       "language" : "Perl",
       "name" : "PerlHP-bbs",
-      "notes" : "it's probably going to be better than kusaba.",
-      "version" : "unknown",
-      "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "notes" : "it's probably going to be better than kusaba. Repository moved to lilyanatia/PerlHP-bbs and was archived; last commit November 2011.",
+      "version" : "5ca77ba",
+      "status" : "discontinued",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1181,11 +1211,12 @@ script_data = [
       "download_url" : "http://code.google.com/p/lucidtea/",
       "language" : "PHP",
       "name" : "Lucid Tea",
-      "notes" : "level of completion undetermined, pending further testing.",
+      "notes" : "level of completion undetermined, pending further testing. Google Code is gone; a copy is kept in the tanami.org archive.",
       "version" : "rev. 3",
       "status" : "discontinued",
-      "last_checked" : "2021-01-15",
-      "created" : "2008"
+      "last_checked" : "2026-09-03",
+      "created" : "2008",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/lucidtea.zip"
    },
    {
       "author_name" : "Yamada",
@@ -1196,7 +1227,7 @@ script_data = [
       "notes" : "A long time ago the author sent me the source, unfortunately I have not retained it over the years. It is a fork of TinyIB.",
       "version" : "n/a",
       "status" : "unknown",
-      "last_checked" : "2019-11-30",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1208,7 +1239,7 @@ script_data = [
       "notes" : "n/a",
       "version" : "n/a",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1220,7 +1251,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1232,7 +1263,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1244,7 +1275,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1256,7 +1287,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1268,7 +1299,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1280,7 +1311,7 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
+      "last_checked" : "2026-09-03",
       "created" : "unknown"
    },
    {
@@ -1292,8 +1323,8 @@ script_data = [
       "notes" : "",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-08-11",
-      "created": "unknown"
+      "last_checked" : "2026-09-03",
+      "created" : "unknown"
    },
    {
       "author_name" : "n/a",
@@ -1301,22 +1332,23 @@ script_data = [
       "download_url" : "#none",
       "language" : "PHP",
       "name" : "Hydrogen",
-      "notes" : "",
+      "notes" : "A copy is kept in the tanami.org archive.",
       "version" : "",
       "status" : "unknown",
-      "last_checked" : "2019-11-26",
-      "created": "unknown"
+      "last_checked" : "2026-09-03",
+      "created" : "unknown",
+      "archive_url" : "https://tanami.org/pub/software/TrueScript/Hydrogen.zip"
    },
-      {
+   {
       "author_name" : "Odilitime",
       "author_url" : "https://github.com/odilitime",
       "download_url" : "https://github.com/odilitime/infinity",
       "language" : "PHP",
       "name" : "Infinity",
-      "notes" : "Maintained fork of infinity",
-      "version" : "n/a",
+      "notes" : "Maintained fork of infinity. This is a fork of the original 8chan infinity (ctrlcctrlv/infinity); last commit September 2023.",
+      "version" : "650ee8f",
       "status" : "stable",
-      "last_checked" : "2023-08-01",
+      "last_checked" : "2026-09-03",
       "created" : "2021-10-07"
    },
    {
@@ -1325,10 +1357,10 @@ script_data = [
       "download_url" : "https://gitgud.io/Sapphire/FutaBilly",
       "language" : "PHP/NodeJS",
       "name" : "FutaBilly",
-      "notes" : "JS-required imageboard OR NodeJS archiver",
+      "notes" : "JS-required imageboard OR NodeJS archiver. Last repository activity June 2017.",
       "version" : "unknown",
-      "status" : "inactive",
-      "last_checked" : "2023-08-01",
+      "status" : "unmaintained",
+      "last_checked" : "2026-09-03",
       "created" : "2015-09-09"
    },
    {
@@ -1337,22 +1369,22 @@ script_data = [
       "download_url" : "https://gitgud.io/odilitime/lynxphp",
       "language" : "PHP",
       "name" : "Double Plus",
-      "notes" : "no-js modular modern imageboard in heavy development",
+      "notes" : "no-js modular modern imageboard in heavy development. No tagged releases; last repository activity September 2025.",
       "version" : "pre-1.0",
       "status" : "maintained",
-      "last_checked" : "2023-08-01",
+      "last_checked" : "2026-09-03",
       "created" : "2020-04-28"
    },
-      {
+   {
       "author_name" : "George Musk",
       "author_url" : "https://codeberg.org/grgmusk",
       "download_url" : "https://codeberg.org/grgmusk/toybbs",
       "language" : "PHP",
       "name" : "ToyBBS",
-      "notes" : "PHP textboard experiment",
+      "notes" : "PHP textboard experiment. Last commit December 2024.",
       "version" : "0.1.1",
       "status" : "maintained",
-      "last_checked" : "2024-12-04",
+      "last_checked" : "2026-09-03",
       "created" : "2024-10-30"
    },
    {
@@ -1361,10 +1393,178 @@ script_data = [
       "download_url" : "https://codeberg.org/grgmusk/mmmb",
       "language" : "PHP",
       "name" : "MMMB",
-      "notes" : "MMMB is a mostly textboard-like forum script with PGP-based authorization/authentication. To post a message you have to sign it with PGP key.",
+      "notes" : "MMMB is a mostly textboard-like forum script with PGP-based authorization/authentication. To post a message you have to sign it with PGP key. Last commit March 2025.",
       "version" : "0.1",
       "status" : "maintained",
-      "last_checked" : "2025-03-20",
+      "last_checked" : "2026-09-03",
       "created" : "2025-03-18"
+   },
+   {
+      "author_name" : "lainchan",
+      "author_url" : "https://github.com/lainchan",
+      "download_url" : "https://github.com/lainchan/lainchan",
+      "language" : "PHP",
+      "name" : "Lainchan",
+      "notes" : "The vichan fork that runs lainchan.org, kept in sync with the boards it powers. Adds JavaScript-driven features, Tor support and a JSON API on top of the familiar Tinyboard/vichan layout. Last commit August 2026.",
+      "version" : "0b3196b",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2014"
+   },
+   {
+      "author_name" : "gochan-org",
+      "author_url" : "https://github.com/gochan-org",
+      "download_url" : "https://github.com/gochan-org/gochan/releases",
+      "language" : "Go",
+      "name" : "gochan",
+      "notes" : "Imageboard written in Go that runs as a standalone server, so no separate web server, PHP or Node runtime is required. Ships with a web installer and supports MySQL, PostgreSQL and SQLite. Latest release v4.3.0 (August 2025); homepage at gochan.org.",
+      "version" : "v4.3.0",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2015"
+   },
+   {
+      "author_name" : "edginer",
+      "author_url" : "https://github.com/edginer",
+      "download_url" : "https://github.com/edginer/eddist",
+      "language" : "Rust",
+      "name" : "eddist",
+      "notes" : "Anonymous Japanese-style BBS written in Rust and distributed as a container image, with threads, trips and moderation built in. Actively developed; latest release v0.4.0 (June 2026).",
+      "version" : "v0.4.0",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2024"
+   },
+   {
+      "author_name" : "jgbyrne",
+      "author_url" : "https://github.com/jgbyrne",
+      "download_url" : "https://github.com/jgbyrne/plainchant",
+      "language" : "Rust",
+      "name" : "plainchant",
+      "notes" : "Lightweight libre imageboard in Rust aimed at small self-hosted boards, using a flat-file backend instead of a database server. Last commit August 2026.",
+      "version" : "af61f58",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2020"
+   },
+   {
+      "author_name" : "dead-guru",
+      "author_url" : "https://github.com/dead-guru",
+      "download_url" : "https://github.com/dead-guru/devichan",
+      "language" : "PHP",
+      "name" : "devichan",
+      "notes" : "Dockerised, full-featured PHP imageboard derived from vichan, packaged so a board can be brought up with a single compose file. Latest release v1.2.0 (January 2026); a live instance runs at deada.ch.",
+      "version" : "v1.2.0",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2022"
+   },
+   {
+      "author_name" : "KEN0UGH",
+      "author_url" : "https://github.com/KEN0UGH",
+      "download_url" : "https://github.com/KEN0UGH/Hikichan",
+      "language" : "PHP",
+      "name" : "Hikichan",
+      "notes" : "Lightweight PHP imageboard derived from vichan and Tinyboard, focused on scalability, extra features and bug fixes. Last commit August 2026.",
+      "version" : "465a78d",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2025"
+   },
+   {
+      "author_name" : "Edaha",
+      "author_url" : "https://github.com/Edaha",
+      "download_url" : "https://github.com/Edaha/Edaha",
+      "language" : "PHP",
+      "name" : "Edaha",
+      "notes" : "Modular, object-oriented image BBS written in PHP on a custom Kx framework and loosely based on Kusaba X: every part of the code can be extended with modules. Dormant for years, development resumed in 2024 and the last commit is from July 2026.",
+      "version" : "cc91c75",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2013"
+   },
+   {
+      "author_name" : "marlencrabapple",
+      "author_url" : "https://github.com/marlencrabapple",
+      "download_url" : "https://github.com/marlencrabapple/kareha-psgi",
+      "language" : "Perl",
+      "name" : "Kareha PSGI",
+      "notes" : "Fork of Kareha with PSGI/Plack support, so the classic Perl board can run under modern Perl web servers (Starman, uwsgi and friends) instead of plain CGI. Last commit January 2025.",
+      "version" : "f2adb73",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2014"
+   },
+   {
+      "author_name" : "mmb",
+      "author_url" : "https://github.com/mmb",
+      "download_url" : "https://github.com/mmb/tmpbbs",
+      "language" : "Go",
+      "name" : "tmpbbs",
+      "notes" : "Distributed, anonymous and ephemeral forum: posts are gossiped between peers and expire on their own, so there is no central database to moderate or preserve. Latest release v6.7.2 (August 2026).",
+      "version" : "v6.7.2",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2024"
+   },
+   {
+      "author_name" : "TachibanaLabs",
+      "author_url" : "https://github.com/TachibanaLabs",
+      "download_url" : "https://github.com/TachibanaLabs/komi_chan",
+      "language" : "Elixir",
+      "name" : "komi_chan",
+      "notes" : "Simple textboard built with Elixir, Phoenix and Mnesia, meant for small self-hosted boards. Last commit August 2026.",
+      "version" : "b567cfe",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2018"
+   },
+   {
+      "author_name" : "UnderwoodSoy",
+      "author_url" : "https://github.com/UnderwoodSoy",
+      "download_url" : "https://github.com/UnderwoodSoy/SakuraLite",
+      "language" : "PHP",
+      "name" : "SakuraLite",
+      "notes" : "A whole Futaba-style bulletin board in a single PHP file: PHP 7.4 or newer, no database required, usable as a guestbook or a minimal textboard. Last commit February 2026.",
+      "version" : "d322636",
+      "status" : "maintained",
+      "last_checked" : "2026-09-03",
+      "created" : "2025"
+   },
+   {
+      "author_name" : "Flameborn",
+      "author_url" : "https://github.com/Flameborn",
+      "download_url" : "https://github.com/Flameborn/Kiramoji",
+      "language" : "Perl",
+      "name" : "Kiramoji",
+      "notes" : "Modified version of Kareha with usability tweaks and a modernised look, keeping the original Perl codebase. Last release v3.4 (January 2024).",
+      "version" : "v3.4",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
+      "created" : "2017"
+   },
+   {
+      "author_name" : "dangeru",
+      "author_url" : "https://github.com/dangeru",
+      "download_url" : "https://github.com/dangeru/awoo",
+      "language" : "Ruby",
+      "name" : "awoo",
+      "notes" : "Textboard engine built on the Sinatra micro-framework, powering the dangeru board. No commits since October 2022.",
+      "version" : "4f94048",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
+      "created" : "2017"
+   },
+   {
+      "author_name" : "FChannel0",
+      "author_url" : "https://github.com/FChannel0",
+      "download_url" : "https://github.com/FChannel0/FChannel-Server",
+      "language" : "Go",
+      "name" : "FChannel",
+      "notes" : "Libre, self-hostable and federated imageboard: instances talk to each other over ActivityPub, the same protocol used by Mastodon. No commits since 2022, but the software is feature complete and listed in the fchannel.org instance index.",
+      "version" : "301c160",
+      "status" : "stable",
+      "last_checked" : "2026-09-03",
+      "created" : "2021"
    }
 ]
